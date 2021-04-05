@@ -1,3 +1,3 @@
-# Richter-Styled Website
+# Richter-Styled Mosaic
 
 in-development
