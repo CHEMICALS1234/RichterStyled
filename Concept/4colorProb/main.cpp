@@ -29,6 +29,10 @@ int main()
         if (k != v[i - 1][j] && k != v[i][j - 1])
           color.push_back(k);
       }
+      if (!color.size())
+      {
+        return -1;
+      }
       uniform_int_distribution<int>
           dis(0, color.size() - 1);
       v[i][j] = color[dis(gen)];
